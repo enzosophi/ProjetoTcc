@@ -16,13 +16,13 @@ public class MSSQLConnectionHelper {
 
     private static String mStringConnectionUrl;
     //nome de hospedagem do user
-    private static  String mStiStringServerIpName ="bancotcc.mssql.somee.com";
+    private static  String mStiStringServerIpName ="sqlbdtcc.mssql.somee.com";
     //nome do usuario do somee
     private static String mStringUserName ="EnzoSophis_SQLLogin_1";
     //senha do usuario do somee
     private static String mStringPassword ="213vl9hilw";
     // nome do banco de dados do sql
-    private static String mStringDataBase="meubancotcc";
+    private static String mStringDataBase="sqlbdtcc";
 
     public static Connection getConnection(Context mContext){
 

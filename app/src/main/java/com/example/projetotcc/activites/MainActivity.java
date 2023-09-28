@@ -130,7 +130,7 @@ SharedPreferences.Editor mEditor =mSharedPreferences.edit();
       //  }
   //  }
 
-    public class editMyTextAction implements TextView.OnEditorActionListener{
+    public class EditMyTextAction implements TextView.OnEditorActionListener{
         @Override
         public boolean onEditorAction(TextView textView, int actionId, KeyEvent keyEvent) {
             if (actionId== EditorInfo.IME_ACTION_DONE){
